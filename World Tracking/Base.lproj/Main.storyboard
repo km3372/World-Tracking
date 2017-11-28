@@ -33,12 +33,26 @@
                                     <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nsw-gq-UtI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kga-Cs-XU7">
+                                <rect key="frame" x="275" y="567" width="80" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="hL2-HE-Tz6"/>
+                                    <constraint firstAttribute="height" constant="80" id="k6B-oK-VaZ"/>
+                                </constraints>
+                                <state key="normal" title="Rest"/>
+                                <connections>
+                                    <action selector="restButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWN-Ux-wtV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kga-Cs-XU7" secondAttribute="bottom" constant="20" id="0zx-oN-onp"/>
                             <constraint firstItem="xH5-dO-acC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6Zo-B6-LHZ"/>
                             <constraint firstItem="4GR-Ng-lV9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BvP-i8-Drt"/>
                             <constraint firstItem="xH5-dO-acC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EnJ-DZ-kfM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kga-Cs-XU7" secondAttribute="trailing" constant="20" id="Xmd-jT-jt0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4GR-Ng-lV9" secondAttribute="bottom" constant="20" id="Ytt-WA-9uh"/>
                             <constraint firstItem="xH5-dO-acC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aeY-U7-WXg"/>
                             <constraint firstItem="xH5-dO-acC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jr5-nz-Gjn"/>
